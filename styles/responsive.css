@@ -47,9 +47,15 @@
             .main{
                 width:100%;
             }
+            .main > section{
+                margin-top: 30px;
+            }
             .logo{
                 flex-wrap: wrap;
                 gap: 30px;
             }
-            
+            /* popular styles */
+            .products{
+                grid-template-columns: 1fr;
+            }
         }

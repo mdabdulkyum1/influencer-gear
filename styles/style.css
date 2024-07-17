@@ -32,11 +32,13 @@ ul {
 a {
   text-decoration: none;
   color: var(--secondary);
-  font-weight:600;
+  font-weight: 600;
 }
-img{
+
+img {
   width: 100%;
 }
+
 /* ====================================== */
 /* =============================== */
 /* ===================== */
@@ -77,10 +79,12 @@ nav a>i {
   background-color: #000000;
   border-radius: 50%;
 }
+
 .icon-bar,
-.mobile-icon{
+.mobile-icon {
   display: none;
 }
+
 /* end nav */
 
 /* banner styles */
@@ -109,39 +113,106 @@ nav a>i {
 .banner-content button {
   border-radius: 41px;
   padding: 15px 24px 15px 24px;
-  background:var(--primary);
-  border:none;
+  background: var(--primary);
+  border: none;
   color: var(--white);
 }
 
 .banner-img {
   background: url('../images/Circle\ design.svg') no-repeat center;
-  background-size:cover;
+  background-size: cover;
   border: 2px dashed #dadada;
-  padding:1.8rem 1.8rem 1.8rem 0.12rem;
+  padding: 1.8rem 1.8rem 1.8rem 0.12rem;
 }
-.banner-img img{
+
+.banner-img img {
   border: 2px dashed #dadada;
 }
 
 /* Main Part css here */
-main{
-  width:70%;
+main {
+  width: 70%;
   margin: 0 auto;
 }
-main > section{
+
+main>section {
   margin-top: 80px;
 }
 
 /* logo section */
 .logo {
   justify-content: space-around;
-  border:2px solid #ebebeb;
+  border: 2px solid #ebebeb;
   border-left: 0px;
   border-right: 0px;
   padding: 44px;
 }
-.logo img{
-  width:65px;
+
+.logo img {
+  width: 65px;
   height: auto;
+}
+
+/* Popular Collection styles */
+.popular {}
+
+.popular h1 {
+  color: var(--secondary);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: center;
+}
+
+.products {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  width: 329px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+  padding: .9rem;
+}
+
+.card h3 {
+  color: #18191f;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.card h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.card .card-rating i {
+  color: rgb(251, 130, 0);
+}
+
+.card p {
+  color: rgb(120, 120, 133);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: 1.8%;
+}
+
+.see-more {
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: right;
+  margin-top: 25px;
+  margin-right: 25px;
+  cursor: pointer;
 }
