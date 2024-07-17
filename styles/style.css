@@ -115,7 +115,8 @@ nav a>i {
 }
 
 .banner-img {
-  background: url('../images/Circle\ design.svg');
+  background: url('../images/Circle\ design.svg') no-repeat center;
+  background-size:cover;
   border: 2px dashed #dadada;
   padding:1.8rem 1.8rem 1.8rem 0.12rem;
 }
