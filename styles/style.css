@@ -122,5 +122,26 @@ nav a>i {
 }
 .banner-img img{
   border: 2px dashed #dadada;
-  
+}
+
+/* Main Part css here */
+main{
+  width:70%;
+  margin: 0 auto;
+}
+main > section{
+  margin-top: 80px;
+}
+
+/* logo section */
+.logo {
+  justify-content: space-around;
+  border:2px solid #ebebeb;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 44px;
+}
+.logo img{
+  width:65px;
+  height: auto;
 }
