@@ -43,19 +43,50 @@
                 font-size: .8rem;
                 width: 100%;
             }
+
             /* logo styles */
-            .main{
-                width:100%;
+            .main {
+                width: 100%;
             }
-            .main > section{
+
+            .main>section {
                 margin-top: 30px;
             }
-            .logo{
+
+            .logo {
                 flex-wrap: wrap;
                 gap: 30px;
             }
+
             /* popular styles */
-            .products{
+            .products {
                 grid-template-columns: 1fr;
             }
+
+            /* feature */
+            .feature {
+                flex-direction: column-reverse;
+                padding: 24px;
+                gap: 50px;
+            }
+            .feature .col {
+                width: 100%;
+              }
+            .feature-content{
+                text-align: center;
+            }
+            .feature-content h1 {
+                font-size: 1rem;
+                line-height: normal;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            .feature-content p {
+                font-size: .6rem;
+                line-height: normal;
+                text-align: center;
+            }
+
+            .feature-content h1 {}
         }
