@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer Products</title>
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <!-- cursor animation -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mdabdulkyum1/c-a@main/style.css"> -->
+
+    
     <!-- main css -->
-     <link rel="stylesheet" href="styles/style.css">
-     <!-- responsive css -->
-      <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="styles/responsive.css">
+    <!-- bubble cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mdabdulkyum1/my-styles-and-scripts@main/styles.css">
 </head>
+
 <body class="poppins">
+     <!-- bubble -->
+     <div class="bubble-container" id="bubble-container"></div>
     <header>
         <nav class="d-flex">
             <i class=" fa fa-bars icon-bar"></i>
@@ -27,199 +37,315 @@
             <i class="fa-regulre fa-light fa-cart-shopping icon-dot mobile-icon"></i>
         </nav>
         <!-- Banner section -->
-         <section class="banner d-flex">
-              <div class="col">
-                  <div class="banner-content">
+        <section class="banner d-flex">
+            <div class="col">
+                <div class="banner-content">
                     <h1>Start your Journey as <br>Influencer</h1>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
-                      <button>Preebook now <i class="fa fa-arrow-right"></i></button>
-                  </div>
-              </div>
-              <div class="col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros.
+                        Lectus faucibus.</p>
+                    <button>Preebook now <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="col">
                 <div class="banner-img">
                     <img src="images/main-camera.png" alt="">
                 </div>
-              </div>
-         </section>
+            </div>
+        </section>
     </header>
-<!-- Main -->
- <main class="main">
-    <section class="logo d-flex">
-        <img src="logos/Alibaba.svg" alt="">
-        <img src="logos/Amazon.svg" alt="">
-        <img src="logos/Daraz.pk Logo.svg" alt="">
-        <img src="logos/Ebay.svg" alt="">
-        <img src="logos/Rakuten.svg" alt="">
-        <img src="logos/Target.svg" alt="">
-        <img src="logos/Walmart.svg" alt="">
-    </section>
-    <!-- popular -->
-    <section class="popular">
-        <h1>Popular Collection</h1>
-        <div class="products">
-            <div class="card">
-                <img src="images/tripod.png" alt="">
-                <h3>Flex Tripod</h3>
-                <h4>$50.48</h4>
-                <span class="card-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <span>4.99</span></span>
-                <p>Wordwide shifting available
-                    Buyers protection possible!</p>
+    <!-- Main -->
+    <main class="main">
+        <section class="logo d-flex">
+            <img src="logos/Alibaba.svg" alt="">
+            <img src="logos/Amazon.svg" alt="">
+            <img src="logos/Daraz.pk Logo.svg" alt="">
+            <img src="logos/Ebay.svg" alt="">
+            <img src="logos/Rakuten.svg" alt="">
+            <img src="logos/Target.svg" alt="">
+            <img src="logos/Walmart.svg" alt="">
+        </section>
+        <!-- popular -->
+        <section class="popular">
+            <h1>Popular Collection</h1>
+            <div class="products">
+                <div class="card">
+                    <img src="images/tripod.png" alt="">
+                    <h3>Flex Tripod</h3>
+                    <h4>$50.48</h4>
+                    <span class="card-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.99</span></span>
+                    <p>Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="card">
+                    <img src="images/mic.png" alt="">
+                    <h3>Microphone</h3>
+                    <h4>$120.25</h4>
+                    <span class="card-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.99</span></span>
+                    <p>Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="card">
+                    <img src="images/airpod.png" alt="">
+                    <h3>Airbuds</h3>
+                    <h4>$100.00</h4>
+                    <span class="card-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.99</span></span>
+                    <p>Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="card">
+                    <img src="images/drone.png" alt="">
+                    <h3>Drone</h3>
+                    <h4>$980.25</h4>
+                    <span class="card-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.99</span></span>
+                    <p>Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="card">
+                    <img src="images/lights.png" alt="">
+                    <h3>Light Setup</h3>
+                    <h4>$1200.00</h4>
+                    <span class="card-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.99</span></span>
+                    <p>Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="card">
+                    <img src="images/setup.png" alt="">
+                    <h3>Photoshoot set</h3>
+                    <h4>$820.40</h4>
+                    <span class="card-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.99</span></span>
+                    <p>Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="card">
+                    <img src="images/camera.png" alt="">
+                    <h3>Vlogging Camera</h3>
+                    <h4>$1800.80</h4>
+                    <span class="card-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.99</span></span>
+                    <p>Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="card">
+                    <img src="images/single-light.png" alt="">
+                    <h3>Green Screen</h3>
+                    <h4>$25.48</h4>
+                    <span class="card-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.99</span></span>
+                    <p>Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
+                <div class="card">
+                    <img src="images/action.png" alt="">
+                    <h3>Action Camera</h3>
+                    <h4>$380.00</h4>
+                    <span class="card-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <span>4.99</span></span>
+                    <p>Wordwide shifting available
+                        Buyers protection possible!</p>
+                </div>
             </div>
-            <div class="card">
-                <img src="images/mic.png" alt="">
-                <h3>Microphone</h3>
-                <h4>$120.25</h4>
-                <span class="card-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <span>4.99</span></span>
-                <p>Wordwide shifting available
-                    Buyers protection possible!</p>
+            <p class="see-more">See more <i class="fa  fa-arrow-right"></i></p>
+        </section>
+        <!-- Featured products -->
+        <section class="feature d-flex">
+            <div class="col">
+                <div class="feature-img">
+                    <img src="images/gear.png" alt="">
+                </div>
             </div>
-            <div class="card">
-                <img src="images/airpod.png" alt="">
-                <h3>Airbuds</h3>
-                <h4>$100.00</h4>
-                <span class="card-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <span>4.99</span></span>
-                <p>Wordwide shifting available
-                    Buyers protection possible!</p>
+            <div class="col">
+                <div class="feature-content">
+                    <h1>Featured products at one place</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button>Join Now <i class="fa fa-arrow-right"></i></button>
+                </div>
             </div>
-            <div class="card">
-                <img src="images/drone.png" alt="">
-                <h3>Drone</h3>
-                <h4>$980.25</h4>
-                <span class="card-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <span>4.99</span></span>
-                <p>Wordwide shifting available
-                    Buyers protection possible!</p>
-            </div>
-            <div class="card">
-                <img src="images/lights.png" alt="">
-                <h3>Light Setup</h3>
-                <h4>$1200.00</h4>
-                <span class="card-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <span>4.99</span></span>
-                <p>Wordwide shifting available
-                    Buyers protection possible!</p>
-            </div>
-            <div class="card">
-                <img src="images/setup.png" alt="">
-                <h3>Photoshoot set</h3>
-                <h4>$820.40</h4>
-                <span class="card-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <span>4.99</span></span>
-                <p>Wordwide shifting available
-                    Buyers protection possible!</p>
-            </div>
-            <div class="card">
-                <img src="images/camera.png" alt="">
-                <h3>Vlogging Camera</h3>
-                <h4>$1800.80</h4>
-                <span class="card-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <span>4.99</span></span>
-                <p>Wordwide shifting available
-                    Buyers protection possible!</p>
-            </div>
-            <div class="card">
-                <img src="images/single-light.png" alt="">
-                <h3>Green Screen</h3>
-                <h4>$25.48</h4>
-                <span class="card-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <span>4.99</span></span>
-                <p>Wordwide shifting available
-                    Buyers protection possible!</p>
-            </div>
-            <div class="card">
-                <img src="images/action.png" alt="">
-                <h3>Action Camera</h3>
-                <h4>$380.00</h4>
-                <span class="card-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <span>4.99</span></span>
-                <p>Wordwide shifting available
-                    Buyers protection possible!</p>
+        </section>
+
+    </main>
+
+    <!-- footer  -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Influencer products</h3>
+            <p>Copyright © 2020 influencer products</p>
+            <p>All rights reserved</p>
+            <div class="foot-icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-regular fa-basketball"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
             </div>
         </div>
-        <p class="see-more">See more <i class="fa  fa-arrow-right"></i></p>
-    </section>
-    <!-- Featured products -->
-     <section class="feature d-flex">
-        <div class="col">
-            <div class="feature-img">
-                <img src="images/gear.png" alt="">
-            </div>
-        </div>
-        <div class="col">
-            <div class="feature-content">
-                <h1>Featured products at one place</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button>Join Now <i class="fa fa-arrow-right"></i></button>
-            </div>
-        </div>
-     </section>
+    </footer>
 
- </main>
+<div id="cursor"></div>
 
-<!-- footer  -->
-<footer class="footer">
-   <div class="footer-content">
-    <h3>Influencer products</h3>
-    <p>Copyright © 2020  influencer products</p>
-    <p>All rights reserved</p>
-    <div class="foot-icons">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-regular fa-basketball"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-youtube"></i>
-    </div>
-   </div>
-</footer>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var cursorwork = document.getElementById("cursor");
+        var linkBtn = document.querySelectorAll("a");
+        var btn = document.querySelectorAll("button");
+
+        // Function to update cursor position
+        function updateCursorPosition(e) {
+            cursorwork.style.left = e.clientX + "px";
+            cursorwork.style.top = e.clientY + "px";
+        }
+
+        // Add mousemove event listener to document
+        document.addEventListener("mousemove", updateCursorPosition);
+
+        // Add class 'cursor' to cursor element on mouseover
+        document.addEventListener("mouseover", function () {
+            cursorwork.classList.add("cursor");
+        });
+
+        // Add event listeners to buttons
+        btn.forEach(function (mainBtn) {
+            mainBtn.addEventListener("mouseover", function () {
+                cursorwork.classList.add("cursorHover");
+            });
+            mainBtn.addEventListener("mouseout", function () {
+                cursorwork.classList.remove("cursorHover");
+            });
+        });
+
+        // Add event listeners to links
+        linkBtn.forEach(function (link) {
+            link.addEventListener("mouseover", function () {
+                cursorwork.classList.add("cursorHover");
+            });
+            link.addEventListener("mouseout", function () {
+                cursorwork.classList.remove("cursorHover");
+            });
+        });
+    });
+</script>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Create the cursor element
+            var cursorwork = document.createElement('div');
+            cursorwork.id = "cursor";
+            cursorwork.classList.add('cursor');
+            document.body.appendChild(cursorwork);
+
+            var linkBtn = document.querySelectorAll("a");
+            var btn = document.querySelectorAll("button");
+
+            // Function to update cursor position
+            function updateCursorPosition(e) {
+                cursorwork.style.left = e.clientX + "px";
+                cursorwork.style.top = e.clientY + "px";
+            }
+
+            // Add mousemove event listener to document
+            document.addEventListener("mousemove", updateCursorPosition);
+
+            // Add class 'cursor' to cursor element on mouseover
+            document.addEventListener("mouseover", function () {
+                cursorwork.classList.add("cursor");
+            });
+
+            // Add event listeners to buttons
+            btn.forEach(function (mainBtn) {
+                mainBtn.addEventListener("mouseover", function () {
+                    cursorwork.classList.add("cursorHover");
+                });
+                mainBtn.addEventListener("mouseout", function () {
+                    cursorwork.classList.remove("cursorHover");
+                });
+            });
+
+            // Add event listeners to links
+            linkBtn.forEach(function (link) {
+                link.addEventListener("mouseover", function () {
+                    cursorwork.classList.add("cursorHover");
+                });
+                link.addEventListener("mouseout", function () {
+                    cursorwork.classList.remove("cursorHover");
+                });
+            });
+        });
+    </script> -->
+    <!-- animation cdn -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/gh/mdabdulkyum1/c-a@main/main.js"></script> -->
+
+    <!-- bubble cdn -->
+    <script src="https://cdn.jsdelivr.net/gh/mdabdulkyum1/my-styles-and-scripts@main/scripts.js"></script>
 </body>
+
 </html>
